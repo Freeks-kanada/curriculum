@@ -21,13 +21,15 @@ switch 3
 
 また、各回答の理由を併せて明記してください。
 
-Switch1 F0/2 RP ,F0/1 DP
+Switch1 F0/2 RP ,F0/1 BP
 コストの計算とRPの対面がDP、
 switch2 F0/1 RP ,F0/2 DP
 コスト計算 
 Switch3 F0/1 DP,E0/2 DP
 ルートブリッジ
-Switch4 E0/2 RP,E0/1 BP
-コスト計算
+Switch4 E0/2 RP,E0/1 DP
+コスト計算、ルートパスコストを比較した時にswitch4の方がコストが低くなるため。
+
+
 
 
